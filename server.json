@@ -1,0 +1,135 @@
+{
+    "profile": {
+      "name": "Bruno Heil",
+      "avatar_url": "https://i.imgur.com/j0CSctF.jpg"
+    },
+     "categories": [
+      {
+        "id": 1,
+        "title": "Cachaça",
+        "categorie_url": "https://i.imgur.com/kFDkKGq.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Cerveja",
+        "categorie_url": "https://emporiodacerveja.vtexassets.com/arquivos/ids/177011-800-auto?width=800&height=auto&aspect=true"
+      },
+      {
+        "id": 3,
+        "title": "Refrigerantes",
+        "categorie_url": "https://www.mundoboaforma.com.br/wp-content/uploads/2017/03/refrigerantes.jpg"
+      }
+    ],
+    "restaurants": [
+      {
+        "id": 1,
+        "restaurant_url": "https://i.imgur.com/aKcIn5n.jpg",
+        "title": "Chacaçaria Estância Moretti",
+        "star": "",
+        "categories": [
+          "Pinga da boa"
+        ],
+        "delay": "30-60 min",
+        "distance": "35 km"
+      }
+    ],
+    "suggestions": [
+      {
+        "id": 1,
+        "title": "Bebidas",
+        "sugg_url": "https://p2.trrsf.com/image/fget/cf/460/0/images.terra.com/2019/10/21/pina-colada.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Promoções",
+        "sugg_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8BsQ0ZcDXQTHBz0SZrFLmppiHkYK0KSGx97bF2Tpz0FFP_wsqHA&s"
+      },
+      {
+        "id": 3,
+        "title": "Café & Padaria",
+        "sugg_url": "http://famagusta-gazette.com/wp-content/uploads/2019/08/coffee-cafe.png"
+      },
+      {
+        "id": 4,
+        "title": "Doces",
+        "sugg_url": "https://images.immediate.co.uk/production/volatile/sites/2/2019/04/Choc-Fudge-Cake-b2d1909.jpg?quality=45&resize=620,413"
+      },
+      {
+        "id": 5,
+        "title": "Doação",
+        "sugg_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1FlDyLkEvvGLM-mu_WkRNzRpiMYq19YOfK7P4siZdMTyCBqjL&s"
+      }
+    ],
+    "promotions": [
+      {
+        "id": 1,
+        "categorie": "COMBO POR R$99,00",
+        "title": "Pinga ne mim!",
+        "promo_url": "https://i.imgur.com/cAYMT87.jpg",
+        "menu_url": "https://i.imgur.com/cAYMT87.jpg"
+      },
+      {
+        "id": 2,
+        "categorie": "COMBO POR R$69,99",
+        "title": "Pinga todo dia!",
+        "promo_url": "https://i.imgur.com/q2RSYK3.jpg",
+        "menu_url": "https://i.imgur.com/q2RSYK3.jpg"
+      }
+    ],
+    "offers": [
+      {
+        "id": 1,
+        "title": "Cachaça 4 madeiras",
+        "offer_url": "https://i.imgur.com/RFEVgfT.jpg",
+        "price": 60.00,
+        "newPrice": 45.00,
+        "ingredients": "Um blend que envelhece em 4 madeiras diferentes: catanheira, emburana, carvalho americano, carvalho francês",
+        "delivery": "Cachaçaria Estancia Moretti",
+        "delay": "20-40 min",
+        "icon": "store"
+      },
+      {
+        "id": 2,
+        "title": "Cachaça Emburana",
+        "offer_url": "https://i.imgur.com/xmD1ANj.jpg",
+        "price": 45.00,
+        "newPrice": 30.00,
+        "ingredients": "fica armazenada em barris de emburana, que é uma madeira brasileira, essa cachaça fica 2 anos envelhecendo no respectivo barril.",
+        "delivery": "Cachaçaria Estancia Moretti",
+        "delay": "20-40 min",
+        "icon": "store"
+      },
+      {
+        "id": 3,
+        "title": "Cachaça Carvalho",
+        "offer_url": "https://i.imgur.com/cjQdFPt.jpg",
+        "price": 55.90,
+        "newPrice": 40.00,
+        "ingredients": "cachaça é envelhecida em um barris de Carvalho americano e Francês, ficando 4 anos dentro dos mesmos.",
+        "delivery": "Cachaçaria Estancia Moretti",
+        "delay": "20-40 min",
+        "icon": "store"
+      },
+      {
+        "id": 4,
+        "title": "Cachaça prata",
+        "offer_url": "https://i.imgur.com/6YRA1OU.jpg",
+        "price": 40.00,
+        "newPrice": 30.00,
+        "ingredients": "consiste em uma cachaça que logo após sua destilação fica armazenada em tonéis de alumínio, onde não ocorre mudança no sabor ou na cor do produto.",
+        "delivery": "Cachaçaria Estancia Moretti",
+        "delay": "20-40 min",
+        "icon": "store"
+      }
+    ],
+    "purchases": [
+      {
+        "id": 1,
+        "date": "Seg - 20 de janeiro de 2021",
+        "restaurant_name": "Cachaçaria Estancia Moretti",
+        "restaurant_url": "https://i.imgur.com/RFEVgfT.jpg",
+        "order_number": 7854,
+        "order": "1 Cachaça 4 madeiras por R$45,00"
+      }
+    ]
+  }
