@@ -1,22 +1,11 @@
-const express = require('express')
-const mongoose = require('mongoose')
-const requireDir = require('require-dir')
-const cors = require('cors')
-//Iniciando App
-var app = express();
-app.use(express.json())
-app.use(cors())
-
-mongoose.connect('mongodb+srv://deploy:upload@cluster0-bxjdr.mongodb.net/Produtos?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
-
-requireDir('./src/models')
-
-
-const Product = mongoose.model('Product')
-
-app.use('/api',require('./src/routes'))
-
-
-app.listen(process.env.PORT || 3001);
-
+const jsonServer = require('json-server')
+const server = jsonServer.create()
+const router = jsonServer.router('server.json')
+const middlewares = jsonServer.defaults()
+ 
+server.use(middlewares)
+server.use(router)
+server.listen(process.env.PORT || 3000, () => {
+  console.log('JSON Server is running')
+})
 
